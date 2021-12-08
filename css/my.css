@@ -1,0 +1,95 @@
+.body_hide {
+	opacity: 0;
+	transition: 0.9s opacity ease-in-out;
+}
+
+.body_visible {
+	opacity: 1;
+}
+
+body {
+    background: #d1ebe6;
+}
+
+.form-control {
+    background: #f0faf7;
+}
+
+.navbar-brand:hover {
+    color: #1ABC9C!important; 
+}
+
+.dws-menu *{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dws-menu ul,
+.dws-menu ol {
+    list-style: none;
+}
+
+.dws-menu > ul {
+    display: flex;
+    justify-content: center;
+}
+
+.dws-menu > ul li a {
+    display: block;
+    padding: 15px 20px 15px 20px;
+    font-size: 20px;
+    color: wheat;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.5s ease;
+}
+
+.dws-menu > ul li {
+    position: relative;
+    border-right: 2px solid #006363;
+}
+
+.dws-menu > ul li:first-child {
+    border-left: 2px solid #006363;
+}
+
+
+.dws-menu li a:hover {
+    background: #00636333;
+    color: #00172c;
+    box-shadow: 1px 5px 10px -5px black;
+    transition: all 0.5s ease;
+}
+
+/* sub menu */
+.dws-menu li ul {
+    position: absolute;
+    min-width: 100px;
+    z-index: 1;
+    display: none;
+}
+
+.dws-menu li > ul li {
+    margin-left: 10px;
+    border-bottom: 2px solid #006363;
+    border-right: 2px solid #006363;
+    border-left: 2px solid #006363;
+}
+
+.dws-menu li > ul li a {
+    padding: 15px;
+    text-transform: none;
+}
+
+.dws-menu li:hover > ul {
+    display: block;
+    height: 200px;
+}
+
+.dws-menu ul ul {
+    display: block;
+    position: absolute;
+    height: 0;
+    overflow: hidden;
+    transition: all 0.5s 0.5s ease-out;
+}
