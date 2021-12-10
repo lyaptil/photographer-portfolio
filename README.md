@@ -1,2 +1,2 @@
 # photographer-portfolio
-modifikaka
+TODO write good README.md
