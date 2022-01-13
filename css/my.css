@@ -108,15 +108,15 @@ body {
 
 /* other html */
 .ppl_body {
-    background: rgba(133, 38, 38, 0.075) url(/assets/bg/bckgr.jpg);
+    background: rgba(133, 38, 38, 0.075) url(assets/bg/bckgr.jpg);
 }
 
 .abstr_body {
-    background: rgba(133, 38, 38, 0.075) url(/assets/bg/abstr_bg.jpg);
+    background: rgba(133, 38, 38, 0.075) url(assets/bg/abstr_bg.jpg);
 }
 
 .animals_body {
-    background: rgba(133, 38, 38, 0.075) url(/assets/bg/anim_bg.jpg);
+    background: rgba(133, 38, 38, 0.075) url(assets/bg/anim_bg.jpg);
 }
 
 .thumb img  {
